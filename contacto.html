@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Alumni Sans'>
+    <link rel="stylesheet" href="global.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navLink">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="biografia.html">Biografia</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    <section class="seccion-contacto">
+        <h1>Ponte en <span class="dorado">contacto</span></h1>
+        <p class="descripcion-contacto">¿Quieres hablar sobre un proyecto o saber más sobre mi evolución? Escríbeme.</p>
+
+        <form class="formulario">
+            
+            <div class="grupo-formulario">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            </div>
+
+            <div class="grupo-formulario">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" placeholder="tucorreo@email.com" required>
+            </div>
+
+            <div class="grupo-formulario">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-enviar">Enviar mensaje</button>
+        </form>
+    </section>
+</main>
+
+    <footer>
+        <p>&copy; 2026 - Lucas Dos Reis. Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
